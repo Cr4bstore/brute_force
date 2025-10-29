@@ -1,0 +1,12 @@
+# Ignore large or generated data
+/data/output*
+/data/temp/*
+/data/processed/*
+
+# Ignore Rust build Output
+/target
+
+#But keep the raw datasets (small)
+!/data/raw/*.json
+!/data/raw/*.csv
+
