@@ -1,3 +1,5 @@
+# Guide
+
 main -> always stable, production-ready
 
 develop -> integration of tested features
@@ -7,14 +9,6 @@ feature/\_ -> new functionality
 fix/\_ -> bugfixes
 
 refactor/\* -> large structural improvements
-
-# Initialize & Protect Base
-
-git init
-git add .
-git commit -m "initial commit: project structure"
-git branch -M main
-git checkout -b develop
 
 # Work on features
 
